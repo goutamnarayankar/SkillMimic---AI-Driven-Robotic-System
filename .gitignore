@@ -1,0 +1,43 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Generated model files
+data/models/*.pt
+data/models/*.onnx
+data/models/*.tflite
+
+# Local exports
+data/exports/
+
+# Environment variables
+.env
+.env.*
+
+# Test cache
+.pytest_cache/
+.coverage

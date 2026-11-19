@@ -1,0 +1,49 @@
+
+{
+    "device": {
+        "name": "SkillMimic Pneumatic Glove",
+        "controller": "Arduino Uno",
+        "connection_type": "USB_SERIAL",
+        "serial_port": "COM8",
+        "baudrate": 9600,
+        "connection_timeout": 1
+    },
+    "finger_mapping": {
+        "thumb": 0,
+        "index": 1,
+        "middle": 2,
+        "ring": 3,
+        "little": 4
+    },
+    "calibration": {
+        "status": "NOT_CALIBRATED",
+        "units": "normalized_percentage",
+        "limits": {
+            "thumb": {
+                "pip": [0, 90],
+                "dip": [0, 90]
+            },
+            "index": {
+                "pip": [0, 110],
+                "dip": [0, 90]
+            },
+            "middle": {
+                "pip": [0, 110],
+                "dip": [0, 90]
+            },
+            "ring": {
+                "pip": [0, 110],
+                "dip": [0, 90]
+            },
+            "little": {
+                "pip": [0, 110],
+                "dip": [0, 90]
+            }
+        }
+    },
+    "safety": {
+        "software_emergency_stop_enabled": true,
+        "command_watchdog_seconds": 1.0,
+        "hardware_commands_enabled": true
+    }
+}

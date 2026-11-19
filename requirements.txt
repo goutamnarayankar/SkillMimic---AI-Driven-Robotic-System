@@ -1,0 +1,7 @@
+
+streamlit==1.60.0
+opencv-python==4.11.0.86
+mediapipe==0.10.21
+numpy==1.26.4
+pyserial>=3.5,<4.0
+tensorflow==2.15.1
